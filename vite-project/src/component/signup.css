@@ -1,0 +1,14 @@
+.leftPartSignUp{
+    border: 1px solid black;
+    width: 43%;
+    height: 100vh;
+}
+.rightPartSignUp{
+    border: 1px solid green;
+    width: 57%;
+    height: 100vh;
+}
+.signupContainer{
+    display: flex;
+    flex-direction: row;
+}
