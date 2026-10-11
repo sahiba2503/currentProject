@@ -10,7 +10,7 @@
 .rightPartSignUp{
     /* border: 1px solid green; */
     width: 57%;
-    height: 100vh;
+    padding: 5% 7%;
 }
 .signupContainer{
     display: flex;
@@ -56,4 +56,44 @@
     /* border: 1px solid green; */
     font-size: 15px;
     line-height: 22px;
+}
+.alreadyContainer{    
+    font-size: 13px;
+    margin-bottom: 1rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+   align-items: center;
+   
+}
+.alreadyContainer button{
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+    .claimContainer p{
+        font-size: 11px;
+        margin: 9px 0;
+    }
+    .claimContainer label{
+        font-size: 14px;
+    }
+    .claimContainer input{
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    .claimbtn button{
+     width: 100%;
+     padding: 0.5rem;
+     border-radius: 1rem;
+     margin-top: 1rem;
+    }
+    .claimbtn p{
+        font-size: 11px ;
+        margin-top: 1rem;
+    }
+.createbtn{
+    background-color: black;
+    color:white;
 }
