@@ -7,12 +7,12 @@
     justify-content: space-between;
     padding: 33px;
 }
-.rightPartSignUp{
+.rightPartAuth {
     /* border: 1px solid green; */
     width: 57%;
     padding: 5% 7%;
 }
-.signupContainer{
+.AuthContainer{
     display: flex;
     flex-direction: row;
 }
