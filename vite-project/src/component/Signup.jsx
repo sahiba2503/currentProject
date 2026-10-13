@@ -20,7 +20,7 @@ function Signup() {
           <label>Your blog address</label>
           <input placeholder='https://john.blogify.com' />
           <label>Your name</label>
-          <input placeholder='Ada Lovelace' />
+          <input placeholder='🧑‍🦱Ada Lovelace' />
           <label>Email</label>
           <input placeholder='john@doe.dev' />
           <label>Password</label>
@@ -30,7 +30,7 @@ function Signup() {
           </p>
         </div>
         <div className='claimbtn'>
-          <button className='createbtn'>Create my blog</button>
+          <button className='createbtn'> Create my blog</button>
           <button>Continue with Google</button>
           <button>Continue with GitHub</button>
           <p>
