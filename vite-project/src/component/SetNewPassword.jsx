@@ -20,9 +20,9 @@ function SetNewPassword() {
             you won't.
           </p>
           <lable>New password</lable>
-          <input type='password' placeholder='....' />
+          <input type='password' placeholder='Enter new password' />
           <lable>Confirm password</lable>
-          <input type='password' placeholder='......' />
+          <input type='password' placeholder='Enter confirm password' />
           <button>Update password & log in</button>
         </div>
       </div>

@@ -1,139 +1,211 @@
+* {
+    box-sizing: border-box;
+}
 
 .rightPartAuth {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 57%;
     height: 100%;
-    padding: 5% 7%;
+    padding: 5% 9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.AuthContainer{
+
+.AuthContainer {
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    background-color: #f1f0ef;
 }
-.blogifyContainer{
-     display: flex;
+
+.blogifyContainer {
+    display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    
+
 }
-.blogifyContainer img{
-    height: 36px ;
+
+.blogifyContainer img {
     height: 36px;
+    height: 36px;
+    margin-right: 1rem;
 }
-.blogifyContainer strong{
+
+.blogifyContainer strong {
     font-size: 22px;
     line-height: 32px;
     font-weight: 600;
-    color:#16161A;
+    color: #16161A;
 }
-.ithinkContainer{
+
+.ithinkContainer {
     width: 100%;
-   font-size: 23px;
-   line-height: 22px;
-   font-style: italic;
-   font-weight: 400;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+    font-size: 23px;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.jdContainer{
+
+.jdContainer {
     display: flex;
     flex-direction: row;
     font-size: 15px;
     line-height: 22px;
     margin: 11px 0;
+
 }
-.translateContainer{
+
+.jdContainer img {
+    margin-right: 1rem;
+}
+
+.translateContainer {
+    border: 1px solid #C4B0FF;
     font-size: 15px;
     line-height: 22px;
+    border-radius: 1rem;
+    background-color: #FFFEFB;
+    padding: 1rem;
 }
-.alreadyContainer{    
+
+.alreadyContainer {
     font-size: 13px;
     margin-bottom: 1rem;
-   display: flex;
-   flex-direction: row;
-   justify-content: right;
-   align-items: center;
-   text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
 }
-.alreadyContainer button{
+
+.alreadyContainer button {
+    border: 2px solid #aaa392;
     border-radius: 1rem;
     margin-left: 1rem;
     padding: 0.2rem 0.5rem;
 }
-    .claimContainer p{
-        font-size: 11px;
-        margin: 9px 0;
-    }
-    .claimContainer label{
-        font-size: 14px;
-    }
-    .claimContainer input{
-        padding: 0.5rem;
-        margin-bottom: 0.5rem;
-        width: 100%;
-    }
-    .claimbtn button{
-     width: 100%;
-     padding: 0.5rem;
-     border-radius: 1rem;
-     margin-top: 1rem;
-    }
-    .claimbtn p{
-        font-size: 11px ;
-        margin-top: 1rem;
-    }
-.createbtn{
-    background-color: black;
-    color:white;
+
+.claimContainer {
+    width: 100%;
+
 }
-.leftAuthenPart{
+
+.claimContainer p {
+    font-size: 11px;
+    margin: 9px 0;
+}
+
+.claimContainer label {
+    font-size: 14px;
+}
+
+.claimContainer input {
+    border: 2px solid #aaa392;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.claimbtn button {
+    border: 2px solid #aaa392;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+
+}
+
+.claimbtn p {
+    font-size: 11px;
+    margin-top: 1rem;
+}
+
+.createbtn {
+    background-color: black;
+    color: white;
+}
+
+.leftAuthenPart {
+    /* height: 100%; */
+    /* height: calc(100vh - 4%); */
     height: 100vh;
     width: 43%;
-     padding: 5%;
+    padding: 2% 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #F3EFE6;
 }
-.formremember{
+
+.formremember {
     width: 100%;
     height: 38px;
     display: flex;
     flex-direction: row;
     justify-content: right;
+    align-items: center;
 }
 
-.formContainer{
+.formremember button {
+    border: 2px solid #aaa392;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.formContainer {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 20%;
+
 }
-.rightPartAuth p{
+
+.rightPartAuth p {
     font-size: 15px;
-    color:#55555F;
+    color: #55555F;
     font-weight: 400;
     line-height: 22px;
 }
-.formContainer p,input,label,button{
+
+.formContainer p,
+input,
+label,
+button {
     margin: 0.5rem 0;
 }
-.formContainer input{
-padding: 0.5rem;
-border-radius: 9px;
+
+.formContainer input {
+    border: 2px solid #aaa392;
+    padding: 0.5rem;
+    border-radius: 9px;
 }
-.formContainer button{
-padding: 0.5rem;
-text-align: center;
-border-radius: 15px;
-font-size: 11px;
+
+.formContainer button {
+    border: 2px solid #aaa392;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 11px;
 }
-.formContainer label{
+
+.formContainer label {
     font-size: 14px;
     font-weight: 500;
-    color:#16161A;
+    color: #16161A;
+}
+
+.IthinkHindi {
+    width: 100%;
+    font-size: 34px;
+    line-height: 44px;
+    font-style: italic;
+    font-weight: 400;
+    color: #16161A;
 }

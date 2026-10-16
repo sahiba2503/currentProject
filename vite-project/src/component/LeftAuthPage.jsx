@@ -9,32 +9,28 @@ function leftsignup() {
         <strong>Blogify</strong>
       </div>
       <div className='ithinkContainer'>
-        <div>
+        <div className='IthinkHindi'>
           <p>
-            <i>
-              I think in Hindi and write in English. Quill made me brave enough
-              to hit publish.
-            </i>
+            I think in Hindi and write in English. Quill made me brave enough to
+            hit publish.
           </p>
         </div>
         <div className='jdContainer'>
+          <img src={Avatar} alt='Food' />
           <div>
-            <img src={Avatar} alt='Food' />
-          </div>
-          <div>
-            <p>john Done</p>
+            <strong>john Done</strong>
             <p>john.blogify.com. writing since 2024</p>
           </div>
         </div>
 
         <div className='translateContainer'>
-          <h6>TRANSLATED.HINDI</h6>
+          <strong>TRANSLATED.HINDI</strong>
           <i>"feels like distance"</i>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
             officiis quae iure facere cupiditate sint cum,{" "}
           </p>
-          <h4>Show original</h4>
+          <strong>Show original</strong>
         </div>
       </div>
       <div>
