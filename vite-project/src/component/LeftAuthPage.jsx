@@ -25,7 +25,7 @@ function leftsignup() {
 
         <div className='translateContainer'>
           <strong>TRANSLATED.HINDI</strong>
-          <i>"feels like distance"</i>
+          <p>"feels like distance"</p>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
             officiis quae iure facere cupiditate sint cum,{" "}
