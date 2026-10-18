@@ -27,7 +27,7 @@ function Home() {
             </ul>
             
          <div className="feelContainer"> 
-            <div className="feelDetailContaint"><p>When a response takes too long, it feels like distance - as if the app lives somewhere far away.</p></div>
+            <div className="feelDetailContent"><p>When a response takes too long, it feels like distance - as if the app lives somewhere far away.</p></div>
             
             <div className="explainedContainer">
                 <strong>EXPLAINED X</strong>

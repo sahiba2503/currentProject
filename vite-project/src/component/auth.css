@@ -343,10 +343,10 @@ color:#7C3AED;
     flex-direction: row;
     justify-content: space-between;
 }
-.feelDetailContaint{
+.feelDetailContent{
     width: 45%;
 }
-.feelDetailContaint p{
+.feelDetailContent p{
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
