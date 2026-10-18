@@ -4,13 +4,13 @@ import CheckInbox from "./component/CheckInbox";
 // import SignUp from "./component/Signup.jsx";
 import { Routes, Route } from "react-router";
 import SetNewPassword from "./component/SetNewPassword.jsx";
-import Navbar from "./component/navbar.jsx";
+import Home from "./component/Home.jsx";
 function App() {
   return (
     <div className='mainContainer'>
       <Routes>
         {/* <Route path="/" element={<SignUp/>}></Route> */}
-        <Route path='/' element={<Navbar />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='/login' element={<Signin />}></Route>
         <Route path='/check' element={<CheckInbox />}></Route>
          <Route path='/SetPassword' element={<SetNewPassword />}></Route>

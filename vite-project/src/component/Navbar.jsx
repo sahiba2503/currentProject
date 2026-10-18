@@ -14,8 +14,9 @@ function Navbar() {
         <li>Topics</li>
        </ul>
        </div>
-       <div className="navSearchlink"><input type="text" placeholder="Search stories, writers,topics /" />
-       <button>log in</button>
+       <div className="navSearchlink">
+        <input type="text" placeholder=" Search stories, writers,topics /" />
+       <p>log in</p>
        <button>start writing</button>
        </div>
     </div>
