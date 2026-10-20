@@ -84,6 +84,42 @@ function Home() {
           </div>
           <div className="trendingContainer">
             <h5>Trending this week </h5>
+            <div className="trending-list-container">
+            <div className="list-container">
+              <h3>01</h3>
+              <div className="list-detail">
+               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
+              <h5>john.blogify.com . 6min read</h5>
+              <p>likes</p>
+              
+              </div>
+              </div>
+              <div className="list-container">
+              <h3>01</h3>
+              <div className="list-detail">
+               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
+              <h5>john.blogify.com . 6min read</h5>
+              <p>likes</p>
+              </div>
+              </div>
+              <div className="list-container">
+              <h3>01</h3>
+              <div className="list-detail">
+               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
+              <h5>john.blogify.com . 6min read</h5>
+              <p>likes</p>
+              </div>
+              </div>
+              <div className="list-container">
+              <h3>01</h3>
+              <div className="list-detail">
+               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
+               <h5>john.blogify.com . 6min read</h5>
+              <p>likes</p>
+              </div>
+              </div>
+            </div>
+            
           </div>
           </div>
            </div>
