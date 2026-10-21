@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
-import cover from "../assets/cover.svg";
-import avatar from "../assets/Avatar.png";
+import Latency from "./Latency";
 function Home() {
   return (
     <div>
@@ -52,76 +51,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className='letencyContainer'>
-          <div className="letencyContent">
-          <h5>EDITOR's PICK</h5>
-          <div className="letencyimg">
-          <img src={cover} alt='' />
-          </div>
-           
-           
-            <div className="eng-per-btn">
-             <button className="eng">Engineering</button>
-               <button className="per">Performance</button>
-             </div>
-           
-          <h3>Why latency feels like distance</h3>
-          <p>
-            Every product has a speed limit. Here's how to find yours before
-            your users do - and what a 200 ms budget really buys you.
-          </p>
-          <div>
-            
-            <div className="jD-logo">
-              <img src={avatar} alt="" />
-              <div className="jd-detail">
-               <strong>John Doe</strong>
-              <p>john.blogify.com . 6min read</p>
-              </div>
-              
-            </div>
-          </div>
-          </div>
-          <div className="trendingContainer">
-            <h5>Trending this week </h5>
-            <div className="trending-list-container">
-            <div className="list-container">
-              <h3>01</h3>
-              <div className="list-detail">
-               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
-              <h5>john.blogify.com . 6min read</h5>
-              <p>likes</p>
-              
-              </div>
-              </div>
-              <div className="list-container">
-              <h3>01</h3>
-              <div className="list-detail">
-               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
-              <h5>john.blogify.com . 6min read</h5>
-              <p>likes</p>
-              </div>
-              </div>
-              <div className="list-container">
-              <h3>01</h3>
-              <div className="list-detail">
-               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
-              <h5>john.blogify.com . 6min read</h5>
-              <p>likes</p>
-              </div>
-              </div>
-              <div className="list-container">
-              <h3>01</h3>
-              <div className="list-detail">
-               <div className="list-heading"><img src={avatar} alt="" /> <p>John Doe</p></div>
-               <h5>john.blogify.com . 6min read</h5>
-              <p>likes</p>
-              </div>
-              </div>
-            </div>
-            
-          </div>
-          </div>
+        <Latency />
            </div>
         </div>
      
