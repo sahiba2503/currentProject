@@ -521,10 +521,19 @@ color:#7C3AED;
    /* latest content */
     
 .latestContent{
+    border: 3px solid yellowgreen;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+     gap: 1rem;
+}
+.latestuserscomments{
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column;
+}
+.latestuserscomments h4{
+    margin-bottom: 1rem;
 }
 .latestContainer{
     display: flex;
@@ -605,4 +614,111 @@ gap:0.5rem;
     margin-right: 3%;
    }
     
-  
+  /* latestModule */
+  .writersOuterContainer{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .writersContainer{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+     }
+  .writersContainer h4,.readInYOurlanguage h4{
+      font-size: 11px;
+   font-weight: 600;
+   line-height: 16px;
+   color:#74747E;
+   letter-spacing: 8%;
+  }
+    .writersToRead{
+    border:1px solid red;
+   gap: 1rem;
+      }
+  /* .writersToRead h4{
+      font-size: 11px;
+   font-weight: 600;
+   line-height: 16px;
+   color:#74747E;
+   letter-spacing: 8%;
+
+  } */
+  .studentsDetail{
+    border: 1px solid black;
+    display: flex;
+    gap:0.5rem;
+  }
+  .studentsDetail img{
+    width: 40px;
+    height: 40px;
+    /* background-color: #FDE68A; */
+  }
+  .studentsName strong{
+     font-size: 15px;
+     line-height: 20px;
+     letter-spacing: 0.5%;
+     font-weight: 600;
+  }
+  .studentsName p{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color:#74747E;
+  }
+  .readInYOurlanguage{
+    border: 1px solid blue;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    
+  }
+  .readInYOurlanguage h4{
+    margin-bottom: 1rem;
+  }
+  .readLanguagecontent{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .readLanguagecontainer{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+  }
+  .readLanguagecontent h5{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.5%;
+    color:#16161A;
+    
+  }
+  .readLanguagecontent a{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color:#74747E;
+  }
+  .forwriters{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color:#16161A;
+    color:white;
+  }
+  .forwriters button{
+    min-width: 55%;
+   border-radius: 1rem;
+   border: none;
+   background-color: #4F46E5;
+   color:white;
+  }
