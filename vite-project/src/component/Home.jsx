@@ -3,7 +3,7 @@ import Latency from "./Latency";
 import Latestlist from "./Latestlist";
 import Storiesworth from "./Storiesworth";
 import Latest from "./Latest";
-
+import BlogyNavlist from "./BlogyNavlist";
 function Home() {
   return (
     <div>
@@ -12,7 +12,8 @@ function Home() {
         <Storiesworth />
         <Latency />
        <Latestlist />
-         <Latest />       
+         <Latest />    
+         <BlogyNavlist />   
            </div>
         </div>
      
