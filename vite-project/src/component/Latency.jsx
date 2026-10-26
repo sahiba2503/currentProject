@@ -47,6 +47,7 @@ function Latency() {
               <p>5 min read . 612 likes</p>
               </div>
               </div>
+              <hr />
               <div className="list-container">
               <h3>02</h3>
               <div className="list-detail">
@@ -55,6 +56,7 @@ function Latency() {
               <p>7 min read . 389 likes</p>
               </div>
               </div>
+              <hr />
               <div className="list-container">
               <h3>03</h3>
               <div className="list-detail">
@@ -63,9 +65,8 @@ function Latency() {
               <p>7 min read . 389 likes</p>
               </div>
               </div>
-
-
-                <div className="list-container">
+              <hr />
+               <div className="list-container">
               <h3>04</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
@@ -73,6 +74,7 @@ function Latency() {
               <p>7 min read . 389 likes</p>
               </div>
               </div>
+              <hr />
                 <div className="list-container">
               <h3>05</h3>
               <div className="list-detail">
@@ -81,6 +83,7 @@ function Latency() {
               <p>7 min read . 389 likes</p>
               </div>
               </div>
+              <hr />
               <div className="list-container">
               <h3>06</h3>
               <div className="list-detail">

@@ -214,6 +214,7 @@ button {
 /* navebar css */
 .navbarContainer{
     width: 100%;
+    border-bottom: 2px solid #e7dfd0;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -319,12 +320,12 @@ color:#7C3AED;
     line-height: 18px;
 }
 .tryItContainer{
-    border: 2px solid #eaeaee;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
+    background-color: white;
 }
 .tryItContainer h6{
     color:#74747E;
@@ -367,7 +368,7 @@ color:#7C3AED;
     flex-direction: column;
     gap:1rem;
     padding: 0.5rem;
-    border: 1px solid rgb(215, 210, 210);
+    border: 1px solid #7C3AED;
     border-radius: 1rem;
    }
 .explainedContainer strong{
@@ -397,8 +398,11 @@ color:#7C3AED;
     justify-content: space-between;
 }
 .explainedBtnContainer button{
+    border:none;
+    border-radius: 1rem;
     color:#7C3AED;
-    padding: 0.2rem;
+    padding: 0.5rem ;
+    background-color: #e6ddf9;
 }
   .eng-per-btn{
     display: flex;
@@ -743,16 +747,17 @@ gap:0.5rem;
    background-color: #4F46E5;
    color:white;
   }
-  /* .designdetail */
-  /* latestContainer */
-  /* latestuserscomments */
+
   .nav-outer-container{
     width: 100%;
+    border-top: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+    
   }
 .navlistContent {
     /* border: 1px solid red; */
@@ -774,12 +779,23 @@ gap:0.5rem;
     list-style: none;
 }
 .navlistMode{
- width: 20%;
+ width: 25%;
+ background-color: #e5dfd5;
+ padding: 0.3rem 1rem;
+ border-radius: 2rem;
 }
+
 .navlistMode ul{
     /* border: 1px solid blue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+}
+.navlistMode ul li{
+    padding: 0.3rem 0.5rem;
+}
+.navlistMode .footerLisnavbarContainertbtn{
+    background-color: white;
+    border-radius: 1rem;
 }

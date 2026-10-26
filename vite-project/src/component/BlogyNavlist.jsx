@@ -21,7 +21,7 @@ function BlogyNavlist() {
              </div>
              <div className="navlistMode">
                 <ul>
-                    <li>Light</li>
+                    <li className="footerListbtn">Light</li>
                     <li>Dark</li>
                     <li>System</li>
                 </ul>
