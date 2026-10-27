@@ -221,6 +221,7 @@ button {
    padding: 0.5rem 2rem;
 }
 .navLink{
+    width: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -245,6 +246,7 @@ button {
     color:#16161A;
 }
 .navSearchlink{
+     width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -252,16 +254,17 @@ button {
     gap: 1rem;
 }
 .navSearchlink input{
+    width: 50%;
     background-color: #F3EFE6;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
 .navSearchlink button{
+    width: 23%;
     border-radius: 1rem;
     padding: 0.5rem;
-    min-width: 130px;
-    background-color: #16161A;
+     background-color: #16161A;
     color:white;
 }
 /* homeContainer */
