@@ -802,3 +802,68 @@ gap:0.5rem;
     background-color: white;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .navbarContainer ul{
+        display: none;
+    }
+    .navbarContainer .navSearchlink{
+        display: none;
+    }
+    .mainContainer{
+        display: block;
+    }
+    .letencyContainer{
+        display: block;
+    }
+    .nav-outer-container{
+        display: block;
+    }
+    .latestContent{
+        display: block;
+    }
+    .storiesContainer{
+        width: 100%;
+            }
+            .tryItContainer{
+                width: 100%;
+            }
+            .letencyContent{
+                width: 100%;
+            }
+           .trendingContainer{
+            width: 100%;
+           } 
+           .latestList{
+            width: 100%;
+           }
+           .latestList ul{
+            width: 100%;
+           }
+           .latestuserscomments{
+            width: 100%;
+           }
+           .writersOuterContainer{
+            width: 100%;
+           }
+           .navlistContent{
+            width: 100%;
+           }
+           .navListCon{
+            width: 100%;
+           }
+           .navlistMode{
+            width: 100%;
+           }
+           .homeContainer{
+            width: 100%;
+           }
+           .mainContainer{
+            width: 100%;
+           }
+           .body{
+            display: block;
+            width: 100%;
+           }
+}
