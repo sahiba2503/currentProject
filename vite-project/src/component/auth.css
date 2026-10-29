@@ -213,6 +213,7 @@ button {
 }
 /* navebar css */
 .navbarContainer{
+    /* border:1px solid red; */
     width: 100%;
     border-bottom: 2px solid #e7dfd0;
    display: flex;
@@ -269,10 +270,14 @@ button {
 }
 /* homeContainer */
 .homeContainer{
+    /* border: 2px solid blue; */
+    width: 100%;
     padding: 3% 5%;
     
 }
 .mainContainer{
+    /* border: 1px solid green; */
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,7 +294,7 @@ letter-spacing: 8%;
 color:#7C3AED;
 }
 .storiesContainer h1{
-    font-size: 64px;
+    font-size: 54px;
     line-height: 68px;
     font-weight: 600;
    font-style: italic;
@@ -422,7 +427,7 @@ color:#7C3AED;
         color:#4F46E5;
      }
       .letencyContainer{
-        /* border: 1px solid red; */
+        /* border: 2px solid red; */
          padding: 3rem 0;
         width: 100%;
         display: flex;
@@ -501,6 +506,7 @@ color:#7C3AED;
     height: 24px;
    }
    .latestList{
+    border: 2px solid black;
     border-top: 1px solid #9e9ea0;
     padding: 1rem 0;
    }
@@ -549,8 +555,10 @@ color:#7C3AED;
 }
 .latestContainer{
     /* border: 1px solid green; */
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 .latestContent h4{
@@ -618,6 +626,8 @@ gap:0.5rem;
    }
      
    .designdetail{
+    /* border: 2px solid blue; */
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin-right: 3%;
@@ -802,6 +812,15 @@ gap:0.5rem;
     background-color: white;
     border-radius: 1rem;
 }
+.latestRereimg{
+    width: 50%;
+}
+.latestRereimg img{
+    width: 100%;
+    /* border: 3px solid red; */
+    
+    
+}
 
 @media screen and (max-width: 768px) {
 
@@ -826,6 +845,9 @@ gap:0.5rem;
     .storiesContainer{
         width: 100%;
             }
+            .storiesContainer h1{
+               font-size: 34px;
+            }
             .tryItContainer{
                 width: 100%;
             }
@@ -837,10 +859,12 @@ gap:0.5rem;
            } 
            .latestList{
             width: 100%;
+            
            }
            .latestList ul{
-            width: 100%;
+           display: none;
            }
+          
            .latestuserscomments{
             width: 100%;
            }
@@ -849,9 +873,14 @@ gap:0.5rem;
            }
            .navlistContent{
             width: 100%;
+            font-size: 11px;
            }
            .navListCon{
             width: 100%;
+            margin: 1rem 0;
+           }
+           .navListCon ul li{
+             font-size: 12px;
            }
            .navlistMode{
             width: 100%;
@@ -865,5 +894,18 @@ gap:0.5rem;
            .body{
             display: block;
             width: 100%;
+           }
+           .blogydetailfooter{
+            display: none;
+           }
+           .latestContainer{
+            width: 100%;
+           }
+           .designdetail{
+            width: 70%;
+           }
+           .latestRereimg{
+                width: 25%;
+
            }
 }

@@ -8,7 +8,7 @@ function BlogyNavlist() {
               <img src={logo}/>
              <h3>Blogify</h3>
              </div>
-             <div>@ 2026 Blogify</div>
+             <div className="blogydetailfooter">@ 2026 Blogify</div>
              </div>
              <div className="navListCon">
              <ul>
