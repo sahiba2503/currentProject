@@ -506,7 +506,6 @@ color:#7C3AED;
     height: 24px;
    }
    .latestList{
-    border: 2px solid black;
     border-top: 1px solid #9e9ea0;
     padding: 1rem 0;
    }
@@ -617,6 +616,7 @@ gap:0.5rem;
     line-height: 20px;
     letter-spacing: -0.5%;
     color:#55555F;
+    background-color: #e5dfd2;
    }
    .designBtninf p{
      color:#74747E;
@@ -794,7 +794,7 @@ gap:0.5rem;
 .navlistMode{
  width: 25%;
  background-color: #e5dfd5;
- padding: 0.3rem 1rem;
+ padding: 0.3rem;
  border-radius: 2rem;
 }
 
@@ -820,6 +820,10 @@ gap:0.5rem;
     /* border: 3px solid red; */
     
     
+}
+.footerListbtn{
+    background-color: white;
+    border-radius: 1rem;
 }
 
 @media screen and (max-width: 768px) {
