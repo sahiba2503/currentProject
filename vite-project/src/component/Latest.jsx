@@ -1,6 +1,7 @@
 
 import Avatar from "../assets/Avatar.png";
 import cover from "../assets/cover.png";
+import smallcover from "../assets/cover (1).png";
 function Latest() {
   return (
     <div className="latestContent">
@@ -16,7 +17,9 @@ function Latest() {
              </div>
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img src={cover} /></div>
+             <div className="latestRereimg"><img className="bigcover" src={cover} />
+             <img className="mobilescrrencover" src={smallcover} />
+             </div>
              </div>
               <div className="latestContainer">
             <div className="designdetail">
@@ -28,7 +31,9 @@ function Latest() {
              </div>
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img src={cover} /></div>
+             <div className="latestRereimg"><img className="bigcover" src={cover} />
+              <img className="mobilescrrencover" src={smallcover} />
+             </div>
              </div>
               <div className="latestContainer">
             <div className="designdetail">
@@ -40,7 +45,9 @@ function Latest() {
              </div>
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img src={cover} /></div>
+             <div className="latestRereimg"><img className="bigcover" src={cover} />
+              <img className="mobilescrrencover" src={smallcover} />
+             </div>
              </div>
               <div className="latestContainer">
             <div className="designdetail">
@@ -52,7 +59,9 @@ function Latest() {
              </div>
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img src={cover} /></div>
+             <div className="latestRereimg"><img className="bigcover" src={cover} />
+              <img className="mobilescrrencover" src={smallcover} />
+             </div>
              </div>
              </div>
              <div className="writersOuterContainer">

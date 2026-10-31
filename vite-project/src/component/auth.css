@@ -792,6 +792,7 @@ gap:0.5rem;
     list-style: none;
 }
 .navlistMode{
+    border: 1px solid green;
  width: 25%;
  background-color: #e5dfd5;
  padding: 0.3rem;
@@ -824,6 +825,9 @@ gap:0.5rem;
 .footerListbtn{
     background-color: white;
     border-radius: 1rem;
+}
+.mobilescrrencover{
+ display: none;   
 }
 
 @media screen and (max-width: 768px) {
@@ -887,7 +891,9 @@ gap:0.5rem;
              font-size: 12px;
            }
            .navlistMode{
+            border: 1px solid;
             width: 100%;
+           
            }
            .homeContainer{
             width: 100%;
@@ -909,7 +915,14 @@ gap:0.5rem;
             width: 70%;
            }
            .latestRereimg{
-                width: 25%;
+                width: 20%;
 
            }
+           .bigcover{
+            display: none;
+           }
+           .mobilescrrencover{
+ display: flex; 
+ margin-top: 2rem;
+}
 }
