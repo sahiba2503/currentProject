@@ -1,7 +1,10 @@
 
 import Avatar from "../assets/Avatar.png";
 import cover from "../assets/cover.png";
-import smallcover from "../assets/cover (1).png";
+import cover1 from "../assets/cover1.png";
+import cover2 from "../assets/cover2.png";
+import cover3 from "../assets/cover3.png";
+import cover01 from "../assets/cover01.png";
 function Latest() {
   return (
     <div className="latestContent">
@@ -18,7 +21,7 @@ function Latest() {
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
              <div className="latestRereimg"><img className="bigcover" src={cover} />
-             <img className="mobilescrrencover" src={smallcover} />
+             <img className="mobilescrrencover" src={cover1} />
              </div>
              </div>
               <div className="latestContainer">
@@ -32,7 +35,7 @@ function Latest() {
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
              <div className="latestRereimg"><img className="bigcover" src={cover} />
-              <img className="mobilescrrencover" src={smallcover} />
+              <img className="mobilescrrencover" src={cover3} />
              </div>
              </div>
               <div className="latestContainer">
@@ -46,7 +49,7 @@ function Latest() {
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
              <div className="latestRereimg"><img className="bigcover" src={cover} />
-              <img className="mobilescrrencover" src={smallcover} />
+              <img className="mobilescrrencover" src={cover2} />
              </div>
              </div>
               <div className="latestContainer">
@@ -60,7 +63,7 @@ function Latest() {
              <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
              </div>
              <div className="latestRereimg"><img className="bigcover" src={cover} />
-              <img className="mobilescrrencover" src={smallcover} />
+              <img className="mobilescrrencover" src={cover01} />
              </div>
              </div>
              </div>
@@ -114,4 +117,4 @@ function Latest() {
   )
 }
 
-export default Latest
+export default Latest;
