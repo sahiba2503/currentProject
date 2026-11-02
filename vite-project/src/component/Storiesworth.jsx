@@ -12,9 +12,11 @@ function Storiesworth() {
               or translated in a tap.
             </p>
             <h4>your blog address</h4>
+            <div className="yourblogcon">
             <input type='text' placeholder='https://yourname.blogify.com' />
+             <h6>yourname.blogify.com is available</h6>
             <button>Claim it</button>
-            <h6>yourname.blogify.com is available</h6>
+           </div>
           </div>
           <div className='tryItContainer'>
             <h6>TRY IT - SELECT ANY LINE</h6>
@@ -27,8 +29,8 @@ function Storiesworth() {
             <div className='feelContainer'>
               <div className='feelDetailContent'>
                 <p>
-                  When a response takes too long, it feels like distance - as if
-                  the app lives somewhere far away.
+                  When a response takes too long, it feels like distance .<strong> as if
+                  the app lives somewhere far away.</strong>
                 </p>
               </div>
 

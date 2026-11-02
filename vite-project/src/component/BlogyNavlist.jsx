@@ -13,10 +13,11 @@ function BlogyNavlist() {
              <div className="navListCon">
              <ul>
              <li>About</li>
-             <li>Writer guidelines</li>
+             <li className="navlistitem">Writer</li>
+             <li>Guidelines</li>
              <li>Privacy</li>
              <li>Terms</li>
-             <li>Status</li>
+             <li className="navlistitem">Status</li>
              </ul>
              </div>
              <div className="navlistMode">
