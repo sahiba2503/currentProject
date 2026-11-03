@@ -44,7 +44,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Aisha Khan.aisha.blogify.com</p></div>
               <h5>Designing for the second read</h5>
-              <p>5 min read . 612 likes</p>
+              <p className="date-time-publish-com" >5 min read . 612 likes</p>
               </div>
               </div>
               <hr />
@@ -53,7 +53,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>omar Farooq . omar.blogify.com</p></div>
               <h5>A year of learning Urdu callingraphy</h5>
-              <p>7 min read . 389 likes</p>
+              <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
               <hr />
@@ -62,7 +62,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
                <h5>A year of learning Urdu calligraphy</h5>
-              <p>7 min read . 389 likes</p>
+              <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
               <hr />
@@ -71,7 +71,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
                <h5>What tide pools taught me about systems</h5>
-              <p>7 min read . 389 likes</p>
+              <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
               <hr />
@@ -80,7 +80,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
                <h5>Why latency feels like distance</h5>
-              <p>7 min read . 389 likes</p>
+              <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
               <hr />
@@ -89,7 +89,7 @@ function Latency() {
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Priya Nair.priya.blogify.com</p></div>
               <h5>The quiet ecomomics of chai stalls</h5>
-              <p>9 min read . 248 likes</p>
+              <p className="date-time-publish-com">9 min read . 248 likes</p>
               
               </div>
               </div>

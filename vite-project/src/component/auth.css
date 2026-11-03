@@ -983,4 +983,14 @@ gap:0.5rem;
     body{
         background-color: #efede6;
     }
+    .list-container h3{
+        color:#9A9AA3;
+           font-size: 24px;   
+    }
+    .list-heading {
+        display: none;
+    }
+    .list-detail .date-time-publish-com{
+        font-size: 13px;
+    }
 }
