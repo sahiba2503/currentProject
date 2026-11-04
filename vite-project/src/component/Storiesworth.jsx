@@ -5,7 +5,7 @@ function Storiesworth() {
     <div className='mainContainer'>
           <div className='storiesContainer'>
             <h5> READ.WRITE.UDERSTAND</h5>
-            <h1>Stories worth understanding.</h1>
+            <h1>Stories worth <strong>understanding.</strong></h1>
             <p>
               Independent writer, their own addresses, and Quill in the margin-
               so any line in any post can be explained, simplified, questioned
@@ -29,7 +29,7 @@ function Storiesworth() {
             <div className='feelContainer'>
               <div className='feelDetailContent'>
                 <p>
-                  When a response takes too long, it feels like distance .<strong> as if
+                  When a response takes too long, it<b> feels like distance .</b><strong> as if
                   the app lives somewhere far away.</strong>
                 </p>
               </div>

@@ -19,7 +19,7 @@ function Latency() {
              </div>
            
           <h3>Why latency feels like distance</h3>
-          <p>
+          <p id="every-pr">
             Every product has a speed limit. Here's how to find yours before
             your users do - and what a 200 ms budget really buys you.
           </p>
@@ -29,7 +29,7 @@ function Latency() {
               <img src={avatar} alt="" />
               <div className="jd-detail">
                <strong>John Doe</strong>
-              <p>john.blogify.com . 6min read</p>
+              <p> <strong>john.blogify.com</strong> . 6min read</p>
               </div>
               
             </div>
