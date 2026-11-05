@@ -796,8 +796,7 @@ gap:0.5rem;
     list-style: none;
 }
 .navlistMode{
-    border: 1px solid green;
- width: 25%;
+   width: 25%;
  background-color: #e5dfd5;
  padding: 0.3rem;
  border-radius: 2rem;
@@ -922,15 +921,21 @@ gap:0.5rem;
             width: 75%;
             margin: 1rem 0;
            }
+           .navListCon ul{
+               width: 100%;
+           }
            .navListCon ul li{
-             font-size: 12px;
+             font-size: 9px;
            }
            .navlistMode{
-            width: 75%;
+            width: 85%;
            
            }
            .navlistMode ul {
                justify-content: space-between;
+           }
+           .navlistMode ul li{
+            font-size: 13px;
            }
            .homeContainer{
             width: 100%;
@@ -1044,5 +1049,69 @@ gap:0.5rem;
        }
        .jD-logo strong{
         font-weight: lighter;
+       }
+       .explainedBtnContainer button{
+        font-size: 13px;
+       }
+       .latestUserDetail{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+       }
+       .latestUserDetail p{
+        display: none;
+       }
+       .latestUserDetail img{
+        width: 17px;
+        height: 17px;
+       }
+       .latestUserDetail strong{
+        font-size: 13px;
+        font-weight: lighter;
+       }
+       .latestheadingcontent h3{
+        margin: 0.5rem 0;
+        font-size: 17px;
+        line-height: 21px;
+       }
+       .latestheadingcontent p{
+        display: none;
+       }
+       .designBtninf button{
+        display: none;
+       
+       }
+       .designBtninf p{
+        margin: 0.5rem;
+       }
+       .latestContainer{
+        border-bottom:2px solid rgb(204, 200, 200);
+        margin-bottom: 0.5rem;
+       }
+       .readInYOurlanguage , .writersContainer{
+        display: none;
+       }
+       .forwriters{
+        margin-top: 1.5rem;
+        padding: 0;
+        padding: 1rem;
+       }
+       .forwriters p {
+        font-size: 11px;
+        line-height: 15px;
+       }
+       .forwriters button{
+        font-size: 11px;
+       }
+      
+       .navLink img{
+        width: 24px;
+        height: 24px;
+       
+       }
+       .navLink h3{
+        font-size: 17px;
+        
        }
 }
