@@ -1,6 +1,7 @@
 
 
 import logo from "../assets/mark.jpg";
+import threeline from "../assets/iconthree.png";
 function Navbar() {
   return (
     <div className="navbarContainer">
@@ -19,6 +20,8 @@ function Navbar() {
        <p>log in</p>
        <button>start writing</button>
        </div>
+       <div className="threeline"
+       ><img src={threeline} alt="" /></div>
     </div>
   )
 }

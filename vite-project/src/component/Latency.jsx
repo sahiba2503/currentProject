@@ -4,8 +4,7 @@ import avatar from "../assets/Avatar.png";
 import avatar2 from "../assets/Avatar (2).png";
 function Latency() {
   return (
-    <div>
-      <div className='letencyContainer'>
+       <div className='letencyContainer'>
           <div className="letencyContent">
           <h5>EDITOR's PICK</h5>
           <div className="letencyimg">
@@ -23,8 +22,7 @@ function Latency() {
             Every product has a speed limit. Here's how to find yours before
             your users do - and what a 200 ms budget really buys you.
           </p>
-          <div>
-            
+                     
             <div className="jD-logo">
               <img src={avatar} alt="" />
               <div className="jd-detail">
@@ -32,13 +30,11 @@ function Latency() {
               <p> <strong>john.blogify.com</strong> . 6min read</p>
               </div>
               
-            </div>
-          </div>
+            </div>          
           </div>
           <div className="trendingContainer">
             <h5>Trending this week </h5>
             <div className="trending-list-container">
-            
               <div className="list-container">
               <h3>01</h3>
               <div className="list-detail">
@@ -90,14 +86,12 @@ function Latency() {
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Priya Nair.priya.blogify.com</p></div>
               <h5>The quiet ecomomics of chai stalls</h5>
               <p className="date-time-publish-com">9 min read . 248 likes</p>
-              
-              </div>
+               </div>
               </div>
             </div>
-            
+              </div>
           </div>
-          </div>
-    </div>
+   
   )
 }
 

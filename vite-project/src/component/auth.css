@@ -541,8 +541,7 @@ color:#7C3AED;
    /* latest content */
     
 .latestContent{
-    /* border: 3px solid yellowgreen; */
-    width: 100%;
+     width: 100%;
     display: flex;
     flex-direction: row;
      justify-content: space-between;
@@ -832,6 +831,9 @@ gap:0.5rem;
 .mobilescrrencover{
  display: none;   
 }
+.threeline{
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -897,7 +899,10 @@ gap:0.5rem;
                 width: 100%;
             }
            .trendingContainer{
+            /* border: 1px solid red; */
             width: 100%;
+            height: 290px;
+            overflow: hidden;
            } 
            .latestList{
             width: 100%;
@@ -951,7 +956,12 @@ gap:0.5rem;
             display: none;
            }
            .latestContainer{
-            width: 100%;
+            /* border: 1px solid red; */
+            align-items: center;
+             width: 100%;
+           }
+           .latestContainer img{
+            margin: 0;
            }
            .designdetail{
             width: 70%;
@@ -1113,5 +1123,8 @@ gap:0.5rem;
        .navLink h3{
         font-size: 17px;
         
+       }
+       .threeline{
+        display: block;
        }
 }
