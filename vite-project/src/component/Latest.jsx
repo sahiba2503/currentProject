@@ -1,5 +1,8 @@
 
 import Avatar from "../assets/Avatar.png";
+import coverB from "../assets/cover (5).png";
+import coverC from "../assets/cover (6).png";
+import coverD from "../assets/cover (7).png";
 import cover from "../assets/cover.png";
 import cover1 from "../assets/cover1.png";
 import cover2 from "../assets/cover2.png";
@@ -29,12 +32,12 @@ function Latest() {
           <div className="latestUserDetail">
             <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
-            <div className="latestheadingcontent"><h3>Designing for the second read</h3>
-            <p>Most people skin first and read later. Good layout reward both -- here are five patterns that do.</p>
+            <div className="latestheadingcontent"><h3>The quiet economics of chai stalls</h3>
+            <p>A cup costs ten rupees. The business model behind it is more resilient than most startups i've worked at.</p>
              </div>
-             <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
+             <div className="designBtninf"><button>Cutture</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img className="bigcover" src={cover} />
+             <div className="latestRereimg"><img className="bigcover" src={coverB} />
               <img className="mobilescrrencover" src={cover3} />
              </div>
              </div>
@@ -43,12 +46,12 @@ function Latest() {
           <div className="latestUserDetail">
             <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
-            <div className="latestheadingcontent"><h3>Designing for the second read</h3>
-            <p>Most people skin first and read later. Good layout reward both -- here are five patterns that do.</p>
+            <div className="latestheadingcontent"><h3>What tide pools taught me about systems</h3>
+            <p>Small,self-contained worlds that survive twice-daily chaos, Your microservices could learn a thing or two.</p>
              </div>
-             <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
+             <div className="designBtninf"><button>Science</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img className="bigcover" src={cover} />
+             <div className="latestRereimg"><img className="bigcover" src={coverC} />
               <img className="mobilescrrencover" src={cover2} />
              </div>
              </div>
@@ -57,12 +60,12 @@ function Latest() {
           <div className="latestUserDetail">
             <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
-            <div className="latestheadingcontent"><h3>Designing for the second read</h3>
-            <p>Most people skin first and read later. Good layout reward both -- here are five patterns that do.</p>
+            <div className="latestheadingcontent"><h3>A year of learning Urdu calligraphy</h3>
+            <p>Nastaliq taught me patience, then humility, then how to see negative space in everything i design.</p>
              </div>
-             <div className="designBtninf"><button>Design</button> <p>5 min read </p></div>
+             <div className="designBtninf"><button>Languages</button> <p>5 min read </p></div>
              </div>
-             <div className="latestRereimg"><img className="bigcover" src={cover} />
+             <div className="latestRereimg"><img className="bigcover" src={coverD} />
               <img className="mobilescrrencover" src={cover01} />
              </div>
              </div>
