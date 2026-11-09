@@ -284,7 +284,7 @@ button {
 }
 .storiesContainer{
     /* border: 1px solid black; */
-    width: 564px;
+    width: 45%
     
 }
 .storiesContainer h5{
@@ -333,6 +333,7 @@ color:#7C3AED;
 }
 .tryItContainer{
     border-radius: 1rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -491,9 +492,7 @@ color:#7C3AED;
         flex-direction: row;
         gap:2rem;
     }
-    .list-detail h5{
-        margin: 0.5rem 0rem;
-    }
+   
     .list-heading{
         display: flex;
         flex-direction: row;
@@ -563,6 +562,7 @@ color:#7C3AED;
     justify-content: space-between;
 
 }
+
 .latestContent h4{
     font-size: 24px;
     line-height: 32px;
@@ -717,6 +717,18 @@ gap:0.5rem;
     color:#16161A;
     
   }
+   .yourblogcon {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+  .yourblogcon input{
+                width: 75%;
+            }
+            .yourblogcon button{
+                width: 21%;
+            }
   .readLanguagecontent a{
     font-size: 12px;
     line-height: 16px;
@@ -879,8 +891,11 @@ gap:0.5rem;
                 /* border: 1px solid blue; */
                 display: flex;
                 flex-direction: column;
-                justify-content: left;
+                justify-content: space-between;
                 gap:0.5rem;
+            }
+            .yourblogcon input{
+                width: 100%;
             }
             .yourblogcon button{
                 margin: 0;

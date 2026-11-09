@@ -13,10 +13,10 @@ function Storiesworth() {
             </p>
             <h4>your blog address</h4>
             <div className="yourblogcon">
-            <input type='text' placeholder='https://yourname.blogify.com' />
-             <h6>yourname.blogify.com is available</h6>
-            <button>Claim it</button>
-           </div>
+            <input type='text' placeholder='https://yourname.blogify.com ' />
+             <button>Claim it</button>
+                 </div>
+                 <h6>yourname.blogify.com is available</h6>
           </div>
           <div className='tryItContainer'>
             <h6>TRY IT - SELECT ANY LINE</h6>

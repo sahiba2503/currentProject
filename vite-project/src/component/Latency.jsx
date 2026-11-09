@@ -39,8 +39,9 @@ function Latency() {
               <h3>01</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Aisha Khan.aisha.blogify.com</p></div>
-              <h5>Designing for the second read</h5>
+              <h4>Designing for the second read</h4>
               <p className="date-time-publish-com" >5 min read . 612 likes</p>
+              
               </div>
               </div>
               <hr />
@@ -48,7 +49,7 @@ function Latency() {
               <h3>02</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>omar Farooq . omar.blogify.com</p></div>
-              <h5>A year of learning Urdu callingraphy</h5>
+              <h4>A year of learning Urdu callingraphy</h4>
               <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
@@ -57,7 +58,7 @@ function Latency() {
               <h3>03</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
-               <h5>A year of learning Urdu calligraphy</h5>
+               <h4>A year of learning Urdu calligraphy</h4>
               <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
@@ -66,7 +67,7 @@ function Latency() {
               <h3>04</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
-               <h5>What tide pools taught me about systems</h5>
+               <h4>What tide pools taught me about systems</h4>
               <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
@@ -75,7 +76,7 @@ function Latency() {
               <h3>05</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Lucia Romero . lucia.blogify.com</p></div>
-               <h5>Why latency feels like distance</h5>
+               <h4>Why latency feels like distance</h4>
               <p className="date-time-publish-com">7 min read . 389 likes</p>
               </div>
               </div>
@@ -84,7 +85,7 @@ function Latency() {
               <h3>06</h3>
               <div className="list-detail">
                <div className="list-heading"><img src={avatar2} alt="" /> <p>Priya Nair.priya.blogify.com</p></div>
-              <h5>The quiet ecomomics of chai stalls</h5>
+              <h4>The quiet ecomomics of chai stalls</h4>
               <p className="date-time-publish-com">9 min read . 248 likes</p>
                </div>
               </div>
