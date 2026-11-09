@@ -370,10 +370,13 @@ color:#7C3AED;
     width: 45%;
 }
 .feelDetailContent p{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
+    font-size: 15px;
+     line-height: 24px;
 
+}
+.feelDetailContent p b{
+    color:#4F46E5;
+    text-decoration: underline;
 }
 .explainedContainer{
     width: 50%;

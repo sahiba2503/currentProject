@@ -29,8 +29,8 @@ function Storiesworth() {
             <div className='feelContainer'>
               <div className='feelDetailContent'>
                 <p>
-                  When a response takes too long, it<b> feels like distance .</b><strong> as if
-                  the app lives somewhere far away.</strong>
+                  When a response takes too long, <b>it feels like distance .</b><span> as if
+                  the app lives somewhere far away.</span>
                 </p>
               </div>
 
