@@ -16,7 +16,7 @@ function Latest() {
           <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+             <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div><strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>Designing for the second read</h3>
             <p>Most people skin first and read later. Good layout reward both -- here are five patterns that do.</p>
@@ -30,7 +30,7 @@ function Latest() {
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>The quiet economics of chai stalls</h3>
             <p>A cup costs ten rupees. The business model behind it is more resilient than most startups i've worked at.</p>
@@ -44,7 +44,7 @@ function Latest() {
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>What tide pools taught me about systems</h3>
             <p>Small,self-contained worlds that survive twice-daily chaos, Your microservices could learn a thing or two.</p>
@@ -58,7 +58,7 @@ function Latest() {
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <img src={Avatar} /> <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>A year of learning Urdu calligraphy</h3>
             <p>Nastaliq taught me patience, then humility, then how to see negative space in everything i design.</p>
