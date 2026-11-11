@@ -16,7 +16,7 @@ function Latest() {
           <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-             <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div><strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+             <div className="list-logo" style={{ background:"#EEF0FF",color:"#4F46E5"}}>Ak</div><strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>Designing for the second read</h3>
             <p>Most people skin first and read later. Good layout reward both -- here are five patterns that do.</p>
@@ -27,10 +27,11 @@ function Latest() {
              <img className="mobilescrrencover" src={cover1} />
              </div>
              </div>
+             <hr />
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#EEF0FF",color:"#4F46E5"}}>PN</div>  <strong>Priya Nair </strong><p>in priya.blogify.com </p>
             </div>
             <div className="latestheadingcontent"><h3>The quiet economics of chai stalls</h3>
             <p>A cup costs ten rupees. The business model behind it is more resilient than most startups i've worked at.</p>
@@ -41,10 +42,11 @@ function Latest() {
               <img className="mobilescrrencover" src={cover3} />
              </div>
              </div>
+             <hr />
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#EEF0FF",color:"#4F46E5"}}>LR</div>  <strong>Lucia Romero </strong><p>in lucia.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>What tide pools taught me about systems</h3>
             <p>Small,self-contained worlds that survive twice-daily chaos, Your microservices could learn a thing or two.</p>
@@ -55,10 +57,11 @@ function Latest() {
               <img className="mobilescrrencover" src={cover2} />
              </div>
              </div>
+             <hr />
               <div className="latestContainer">
             <div className="designdetail">
           <div className="latestUserDetail">
-            <div className="list-logo" style={{ background:"#C4B0FF"}}>jk</div>  <strong>Aisha Khan </strong><p>in aisha.blogify.com</p>
+            <div className="list-logo" style={{ background:"#EEF0FF",color:"#4F46E5"}}>OF</div>  <strong>Lucia Romero </strong><p>in aisha.blogify.com</p>
             </div>
             <div className="latestheadingcontent"><h3>A year of learning Urdu calligraphy</h3>
             <p>Nastaliq taught me patience, then humility, then how to see negative space in everything i design.</p>
