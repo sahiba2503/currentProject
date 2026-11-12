@@ -2,11 +2,11 @@ import { useState } from "react";
 import "./Login.css";
 
 function Login() {
-  // Store email and password
+ 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Store login message
+  // show error message
   const [message, setMessage] = useState("");
 
   // Handle form submission
@@ -26,12 +26,12 @@ function Login() {
         password: password,
       }),
     })
-      // Convert response into JSON
+      // handle promish result
       .then((response) => {
         return response.json();
       })
 
-      // Handle backend response
+      // convert data into json
       .then((data) => {
         setMessage(data.message);
       })
