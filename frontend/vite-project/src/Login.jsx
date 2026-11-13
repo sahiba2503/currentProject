@@ -14,29 +14,29 @@ function Login() {
     e.preventDefault();
 
     // Send request to backend
-    fetch("http://localhost:3000/login", {
+    fetch("http://localhost:3000/login",
+       {
       method: "POST",
+      headers: { "Content-Type": "application/json",
 
-      headers: {
-        "Content-Type": "application/json",
-      },
-
-      body: JSON.stringify({
-        email: email,
-        password: password,
-      }),
-    })
-      // handle promish result
+       },
+      body: JSON.stringify({email: email, 
+          password: password, 
+             }),
+    }
+  )
+      // convert promis data into json
       .then((response) => {
         return response.json();
       })
 
-      // convert data into json
+     
       .then((data) => {
         setMessage(data.message);
+        alert("account is success fully created.")
       })
 
-      // Handle network errors
+      // Handle  errors if promis is rejected
       .catch((error) => {
         console.log(error);
         setMessage("Server connection failed");
