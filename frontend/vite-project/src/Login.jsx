@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Login.css";
 
 function Login() {
  
@@ -44,8 +43,8 @@ function Login() {
   };
 
   return (
-    <div className='login-container'>
-      <form className='login-form' onSubmit={handleLogin}>
+    <div className='outer-container'>
+      <form className='form-container' onSubmit={handleLogin}>
         <h2>Welcome Back!</h2>
         <p>Please login to your account</p>
         <input

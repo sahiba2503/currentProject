@@ -9,16 +9,28 @@ app.use(cors());
 app.use(express.json());
 
 const user = {
-  email: "sahiba@gmail.com",
-  password: "123456",
+  email: "",
+  password: "",
+
 };
+//sign up
+app.post("/",(req,res)=>{
+  const {email,password} = req.body;
+  student.email = email;
+  student.password = password;
+
+  if(email === user.email && password === user.password){
+    res.status(200).json({message:"sign up is success full"       })
+  }
+  else{
+    res.status(400).json({message:"invalid email and password"});
+  }
+})
 
 // Login API
 app.post("/login", (req, res) => {
   const { email, password } = req.body;
-  //or
-  //const email = req.body.email;
-  //const password = req.body.password;
+  //or   const email = req.body.email;             const password = req.body.password;
 
   // Check email and password
   if (email === user.email && password === user.password) {
@@ -30,6 +42,8 @@ app.post("/login", (req, res) => {
     res.status(401).json({
       message: "Invalid email or password",
     });
+    student.name = "";
+    student.password = "";
   }
 });
 

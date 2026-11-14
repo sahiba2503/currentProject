@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.login-container {
+.outer-container {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     background-color: #e8f5e9;
 }
 
-.login-form {
+.form-container {
     width: 350px;
     padding: 30px;
     background-color: white;
@@ -22,17 +22,17 @@
     text-align: center;
 }
 
-.login-form h2 {
+.form-container h2 {
     color: #2e7d32;
     margin-bottom: 10px;
 }
 
-.login-form p {
+.form-container p {
     color: #666;
     margin-bottom: 20px;
 }
 
-.login-form input {
+.form-container input {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -41,11 +41,11 @@
     outline: none;
 }
 
-.login-form input:focus {
+.form-container input:focus {
     border-color: #2e7d32;
 }
 
-.login-form button {
+.form-container button {
     width: 100%;
     padding: 12px;
     background-color: #2e7d32;
@@ -56,11 +56,11 @@
     font-size: 16px;
 }
 
-.login-form button:hover {
+.form-container button:hover {
     background-color: #1b5e20;
 }
 
-.login-form .message {
+.form-container .message {
     margin-top: 15px;
     color: #2e7d32;
 }
