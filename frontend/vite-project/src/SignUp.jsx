@@ -33,7 +33,7 @@ function SignUp() {
      <input type="email" placeholder="Enter your email" value={email} onClick={(e)=>setEmail(e.target.email)} required/>
      <p onClick={()=>navigate("/login")}>do you have already account ?</p>
      <p className='message'>{message}</p>
-     <button type="submit"></button>
+     <button type="submit">click</button>
      </form>
     </div>
   )
