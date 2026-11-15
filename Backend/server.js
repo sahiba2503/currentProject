@@ -45,7 +45,11 @@ app.post("/login", (req, res) => {
    
   }
 });
-
+app.delete("/clearAccount",(req,res)=>{
+user.email = "",
+user.password = "";
+res.status(200).json({message:"account is cleared"})
+});
 // Start server
 app.listen(3000, () => {
   console.log("Server  is running on port 3000");

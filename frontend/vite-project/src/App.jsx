@@ -5,8 +5,7 @@ import "./Login.css";
 function App() {
   return (
     <div>
-      <Routes>
-        
+      <Routes>        
         <Route path="/" element={<SignUp />}></Route>
         <Route path="/login" element={<Login />}></Route>
              </Routes>

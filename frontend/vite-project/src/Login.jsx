@@ -40,8 +40,30 @@ function Login() {
         console.log(error);
         setMessage("Server connection failed");
       });
+     
   };
 
+      function clearAccount(e) {
+  e.preventDefault();
+
+  fetch("http://localhost:3000/clearAccount", {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json"
+    }
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log(data);
+      alert(data.message);
+    })
+    .catch((error) => {
+      alert("Something went wrong");
+      console.log(error);
+    });
+}
   return (
     <div className='outer-container'>
       <form className='form-container' onSubmit={handleLogin}>
@@ -62,6 +84,7 @@ function Login() {
           required
         />
         <button type='submit'>Login</button>
+        <button onClick={clearAccount}>clear account</button>
         <p className='message'>{message}</p>
       </form>
     </div>
