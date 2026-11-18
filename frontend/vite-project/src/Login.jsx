@@ -1,91 +1,86 @@
+
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
- 
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  // show error message
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  // Handle form submission
-  const handleLogin = (e) => {
+  async function handleLogin(e) {
     e.preventDefault();
 
-    // Send request to backend
-    fetch("http://localhost:3000/login",
-       {
-      method: "POST",
-      headers: { "Content-Type": "application/json",
+    setMessage("");
+    setLoading(true);
 
-       },
-      body: JSON.stringify({email: email, 
-          password: password, 
-             }),
-    }
-  )
-      // convert promis data into json
-      .then((response) => {
-        return response.json();
-      })
-
-     
-      .then((data) => {
-        setMessage(data.message);
-        alert("account is success fully created.")
-      })
-
-      // Handle  errors if promis is rejected
-      .catch((error) => {
-        console.log(error);
-        setMessage("Server connection failed");
+    try {
+      // Send login request to backend
+      const response = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          email,
+          password
+        })
       });
-     
-  };
 
-      function clearAccount(e) {
-  e.preventDefault();
+      // Convert response into JSON
+      const data = await response.json();
 
-  fetch("http://localhost:3000/clearAccount", {
-    method: "DELETE",
-    headers: {
-      "Content-Type": "application/json"
+      // Check for unsuccessful login
+      if (!response.ok) {
+        setMessage(data.message || "Invalid email or password");
+        return;
+      }
+
+      // Login successful
+      setMessage(data.message || "Login successful!");
+
+      // Navigate to dashboard
+      navigate("/dashboard");
+
+    } catch (error) {
+      console.log("Login error:", error);
+      setMessage("Server connection failed");
+    } finally {
+      setLoading(false);
     }
-  })
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data);
-      alert(data.message);
-    })
-    .catch((error) => {
-      alert("Something went wrong");
-      console.log(error);
-    });
-}
+  }
+
   return (
-    <div className='outer-container'>
-      <form className='form-container' onSubmit={handleLogin}>
+    <div className="outer-container">
+      <form className="form-container" onSubmit={handleLogin}>
+
         <h2>Welcome Back!</h2>
         <p>Please login to your account</p>
+
         <input
-          type='email'
-          placeholder='Enter your email'
+          type="email"
+          placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
+
         <input
-          type='password'
-          placeholder='Enter your password'
+          type="password"
+          placeholder="Enter your password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type='submit'>Login</button>
-        <button onClick={clearAccount}>clear account</button>
-        <p className='message'>{message}</p>
+
+        <button type="submit" disabled={loading}>
+          {loading ? "Logging in..." : "Login"}
+        </button>
+
+        <p className="message">{message}</p>
+
       </form>
     </div>
   );
