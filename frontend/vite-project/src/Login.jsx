@@ -101,8 +101,24 @@ function Login() {
     e.preventDefault();
 
     setMessage("");
-    setLoading(true);
-
+        
+     if (email.trim() === "") {
+      setMessage("Please enter your email");
+      return;
+    }
+    else if (!email.includes("@")) {
+      setMessage("Email must contain @");
+      return;
+    }
+    else if (!email.includes(".")) {
+      setMessage("Email must contain a dot");
+      return;
+    }
+    else if (email.startsWith("@") || email.endsWith("@")) {
+      setMessage("Please enter a valid email");
+      return;
+    }
+     setLoading(true);
     fetch("http://localhost:3000/login", {
       method: "POST",
       headers: {
@@ -125,6 +141,7 @@ function Login() {
       })
       .finally(() => {
         setLoading(false);
+        
       });
   }
 
@@ -150,7 +167,7 @@ function Login() {
           required
         />
 
-        <button type="submit" disabled={loading}>
+                <button type="submit" disabled={loading}>
           {loading ? "Logging in..." : "Login"}
         </button>
 
