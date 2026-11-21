@@ -9,24 +9,58 @@ function TodoTask() {
   const [taskName, setTaskName] = useState("");
 
   // Store all tasks in an array
-  const [tasks, setTask] = useState([]);
+  const [tasks, setTasks] = useState([]);
+
+  //update task 
+  const [updateindex, setUpdateindex] = useState(false);
 
   // Handle form submission
   function taskDetail(e) {
     e.preventDefault();
 
     // Check if input is empty
-    if (taskName.trim() === "") {
+    if(updateindex == false){
+ if (taskName.trim() === "") {
       return;
     }
     else {
       // Add new task to the array
-      setTask([...tasks, taskName]);
+      setTasks([...tasks, taskName]);
 
       // Clear the input field
       setTaskName("");
     }
+    }
+    else{
+      const updatedTask = tasks.map((value,index)=>{
+        if(updateindex === index ){
+          return taskName;
+        }
+        else{
+          return value;
+        }
+      })
+      setTasks(updatedTask);
+      setUpdateindex(false);
+      setTaskName("");
+    }
+   
+    
   }
+  function handleDeleteTask(index){
+    const updatedTask = tasks.filter((value,ind)=>{
+           if(index !== ind){
+            return value;
+           }
+    })
+    setTasks(updatedTask);
+  }
+  function handleUpdateTask(index){
+setTaskName(tasks[index]);
+setUpdateindex(index);
+   
+  }
+
 
   return (
     <div>
@@ -52,6 +86,8 @@ function TodoTask() {
           return (
             <li key={index}>
               {task}
+              <button onClick={()=>handleDeleteTask(index)}>D</button>
+              <button onClick={()=>handleUpdateTask(index)}>U</button>
             </li>
           );
         })}
