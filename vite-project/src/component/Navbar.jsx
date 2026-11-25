@@ -2,7 +2,10 @@
 
 import logo from "../assets/mark.jpg";
 import threeline from "../assets/iconthree.png";
+import { useNavigate } from "react-router";
+
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="navbarContainer">
       
@@ -17,7 +20,7 @@ function Navbar() {
        </div>
        <div className="navSearchlink">
         <input type="text" placeholder=" Search stories, writers,topics /" />
-       <p>log in</p>
+       <p onClick={()=>navigate("/login")}>log in</p>
        <button>start writing</button>
        </div>
        <div className="threeline"

@@ -5,6 +5,7 @@ import CheckInbox from "./component/CheckInbox";
 import { Routes, Route } from "react-router";
 import SetNewPassword from "./component/SetNewPassword.jsx";
 import Home from "./component/Home.jsx";
+import HomePage from "./component/HomePage.jsx";
 function App() {
   return (
     <div className='mainContainer'>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/login' element={<Signin />}></Route>
         <Route path='/check' element={<CheckInbox />}></Route>
          <Route path='/SetPassword' element={<SetNewPassword />}></Route>
+         <Route path = '/homePage' element={<HomePage/>}></Route>
       </Routes>
     </div>
   );
