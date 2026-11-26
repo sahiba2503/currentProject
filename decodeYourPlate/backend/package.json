@@ -8,7 +8,7 @@
   "main": "decode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node decode.js"
+     "start": "node server.js"
 
   },
   "dependencies": {

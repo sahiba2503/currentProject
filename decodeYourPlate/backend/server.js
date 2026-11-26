@@ -1,4 +1,3 @@
-
 const express = require("express");
 const cors = require("cors");
 
@@ -16,7 +15,7 @@ const foodNutritions = [
   { name: "apple", calorie: 30, protein: 10, fat: 21 },
   { name: "banana", calorie: 20, protein: 20, fat: 29 },
   { name: "tea", calorie: 10, protein: 25, fat: 21 },
-  { name: "coffee", calorie: 50, protein: 23, fat: 21 }
+  { name: "coffee", calorie: 50, protein: 23, fat: 21 },
 ];
 
 // GET API
@@ -26,7 +25,6 @@ app.get("/tasksinf", (req, res) => {
 
 // POST API
 app.post("/foodDetail", (req, res) => {
-
   const foodName = req.body.foodName;
 
   // Find matching food
@@ -37,7 +35,7 @@ app.post("/foodDetail", (req, res) => {
   // Check if food exists
   if (details.length === 0) {
     return res.status(404).json({
-      message: "Food not found"
+      message: "Food not found",
     });
   }
 
@@ -45,7 +43,7 @@ app.post("/foodDetail", (req, res) => {
   const food = {
     id: Date.now(),
     item: foodName,
-    nutrition: details
+    nutrition: details,
   };
 
   foodDetail.push(food);
