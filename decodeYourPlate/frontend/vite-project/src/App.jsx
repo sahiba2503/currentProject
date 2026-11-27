@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 function Decode() {
   const [foodname, setFoodname] = useState("");
   const [foods, setFoods] = useState([]);
+  const [error , setError] = useState("");
 
   // GET API: Fetch existing foods
   useEffect(() => {
@@ -20,9 +21,45 @@ function Decode() {
   function foodDetails(e) {
     e.preventDefault();
 
+   
     if (foodname.trim() === "") {
-      return;
-    }
+  setError("Please enter food name");
+   return;
+}
+else if (
+  foodname.includes("1") ||
+  foodname.includes("2") ||
+  foodname.includes("3") ||
+  foodname.includes("4") ||
+  foodname.includes("5") ||
+  foodname.includes("6") ||
+  foodname.includes("7") ||
+  foodname.includes("8") ||
+  foodname.includes("9") ||
+  foodname.includes("0")
+) {
+  setError("Numbers are not allowed");
+   return;
+}
+else if (
+  foodname.includes("@") ||
+  foodname.includes("#") ||
+  foodname.includes("$") ||
+  foodname.includes("%") ||
+  foodname.includes("!") ||
+  foodname.includes("&")
+) {
+  setError("Special characters are not allowed");
+   return;
+}
+else if (foodname !== foodname.toLowerCase()) {
+  setError("Please enter lowercase letters only");
+   return;
+}
+else {
+  setError("");
+  console.log("Valid food name");
+}
 
     fetch("http://localhost:3000/foodDetail", {
       method: "POST",
@@ -87,6 +124,7 @@ function Decode() {
             </li>
           ))}
         </ul>
+        <p>{error}</p>
       </div>
     </div>
   );
